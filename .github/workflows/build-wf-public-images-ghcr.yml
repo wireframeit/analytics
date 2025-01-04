@@ -22,9 +22,8 @@ jobs:
         with:
           images: ghcr.io/wireframeit/plausible/community-edition
           tags: |
-            type=semver,pattern={{version}},prefix=v
-            type=semver,pattern={{major}}.{{minor}},prefix=v
-            type=semver,pattern={{major}},prefix=v
+            sha=${{ github.sha }}
+            latest
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
