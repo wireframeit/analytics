@@ -77,7 +77,6 @@ plausible-report.xml
 /priv/plts/*.plt
 /priv/plts/*.plt.hash
 
-.env
 
 # Geolocation databases
 /priv/geodb/*.mmdb
@@ -89,3 +88,5 @@ plausible-report.xml
 # Docker volumes
 .clickhouse_db_vol*
 plausible_db*
+config.bat
+node_modules

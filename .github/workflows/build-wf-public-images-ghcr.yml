@@ -22,7 +22,7 @@ jobs:
         with:
           images: ghcr.io/wireframeit/plausible/community-edition
           tags: |
-            sha=${{ github.sha }}
+            type=sha
             latest
 
       - name: Set up QEMU
