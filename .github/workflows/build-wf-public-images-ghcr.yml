@@ -1,4 +1,4 @@
-name: Build Public Images GHCR
+name: Build WF Public Images GHCR
 
 on:
   workflow_dispatch:
